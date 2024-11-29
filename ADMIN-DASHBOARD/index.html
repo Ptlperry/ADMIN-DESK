@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Varela+Round&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<!-- REMIXICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP ICON -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+	
+	<title>Recruiter Admin</title>
+</head>
+<body>
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"><img src="./assets/image/dark-logo.png" class="ms-3 me-3" width="32px">Recruiter</a>
+		<ul class="side-menu">
+			<li><a href="index.html" class="active"><i class="ri-dashboard-horizontal-line ms-3 me-4"></i> Dashboard</a></li>
+			<li class="divider" data-text="Components">Components</li>
+			<li>
+				<a href="index.html"><i class="ri-stack-line ms-3 me-4"></i>Elements<i class="ri-arrow-down-s-line "></i></a>
+				<ul class="side-dropdown">
+					<li><a href="icon.html">Icon</a></li>
+					<li><a href="typography.html">Typography</a></li>
+					<li><a href="button.html">Button</a></li>
+					<li><a href="card.html">Card</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class="ri-pie-chart-2-line ms-3 me-4"></i>Charts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ri-arrow-down-s-line"></i></a>
+				<ul class="side-dropdown">
+					<li><a href="LineChart.html">Line Chart</a></li>
+					<li><a href="BarChart.html">Bar Chart</a></li>
+					<li><a href="PieChart.html">Pie Chart</a></li>
+					<li><a href="DoughnutChart.html">Doughnut Chart</a></li>
+
+
+					
+					
+
+				</ul></a></li>
+			
+			<li><a href="cal.html"><i class="bi bi-calendar-date ms-3 me-4"></i>Calender</a></li>
+
+
+			<li><a href="#"><i class="ri-guide-line ms-3 me-4"></i>Maps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ri-arrow-down-s-line"></i></a>
+				<ul class="side-dropdown">
+					<li><a href="map.html">Google Map</a></li>
+				</ul></a></li>
+			<li><a href="#"><i class="ri-bard-line ms-3 me-4"></i>Widgets&nbsp;&nbsp;<i class="ri-arrow-down-s-line"></i></a>
+				<ul class="side-dropdown">
+					<li><a href="404.html">404 Error</a></li>
+				</ul></a></li>
+
+
+			<li class="divider" data-text="table and forms">Table and forms</li>
+			<li><a href="#"><i class="ri-table-view ms-3 me-4"></i>Tables &nbsp;&nbsp;&nbsp; <i class="ri-arrow-down-s-line"></i></a>
+				<ul class="side-dropdown">
+					<li><a href="basictable.html">Basic Table</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" ><i class="ri-file-reduce-line ms-3 me-4"></i> Forms  &nbsp;&nbsp;&nbsp; <i class="ri-arrow-down-s-line"></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Form.html">Basic Form</a></li>
+					
+					
+				
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class="ri-menu-2-line toggle-sidebar"></i>
+			<form action="#">
+				<div class="form-group">
+					
+					<input type="text" placeholder="Search...">
+					
+					
+				</div>
+
+			</form><i class="ri-notification-3-line"></i>
+			<i class="ri-message-line"></i>
+			
+			<span class="divider"></span>
+			<div class="profile">
+			<img src="./assets/image/woman.png">
+				<ul class="profile-link">
+					<li><a href="#"><i class="ri-user-line"></i>Profile</a></li>
+					<li><a href="#"><i class="ri-settings-line"></i> Settings</a></li>
+				
+					<li><a href="#"><i class="ri-git-repository-private-line"></i> Lock Profile</a></li>
+					<li><a href="#"><i class="bi bi-box-arrow-left"></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>			
+			<div class="chart-row three">
+				<div class="chart-container-wrapper">
+				  <div class="chart-container">
+					<div class="chart-info-wrapper">
+					  <h2>Visitors</h2>
+					  <span>20.5 K</span>
+					</div>
+					<div class="chart-svg">
+					  <svg viewBox="0 0 36 36" class="circular-chart pink">
+				<path class="circle-bg" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<text x="18" y="20.35" class="percentage">30%</text>
+			  </svg>
+					</div>
+				  </div>
+				</div>
+				<div class="chart-container-wrapper">
+				  <div class="chart-container">
+					<div class="chart-info-wrapper">
+					  <h2>Subscribers</h2>
+					  <span>5.5 K</span>
+					</div>
+					<div class="chart-svg">
+					  <svg viewBox="0 0 36 36" class="circular-chart blue">
+				<path class="circle-bg" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<text x="18" y="20.35" class="percentage">60%</text>
+			  </svg>
+					</div>
+				  </div>
+				</div>
+				<div class="chart-container-wrapper">
+				  <div class="chart-container">
+					<div class="chart-info-wrapper">
+					  <h2>Sale</h2>
+					  <span>10.5 K</span>
+					</div>
+					 <div class="chart-svg">
+					  <svg viewBox="0 0 36 36" class="circular-chart orange">
+				<path class="circle-bg" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
+					a 15.9155 15.9155 0 0 1 0 31.831
+					a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+				<text x="18" y="20.35" class="percentage">90%</text>
+			  </svg>
+					</div>
+				</div>
+				</div>
+			</div>
+	
+
+			<div class="chart-row two">
+				<div class="chart-container-wrapper big">
+				  <div class="chart-container">
+					<div class="chart-container-header">
+					  <h2>Top Active Jobs</h2>
+					  <span>Last 30 days</span>
+					</div>
+					<div class="line-chart">
+					  <canvas id="chart"></canvas>
+					</div>
+					<div class="chart-data-details">
+					  <div class="chart-details-header"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+            <section>
+				<h6 class="text-white">Details</h6>
+				<IMG src="./assets/image/two-lock.png" width="100%">
+			</section>
+
+			<section class="chart-container mt-2">
+				
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59619.50435143928!2d72.904134689699!3d20.943717754869706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f795909b2c77%3A0x1494cfa5f558f3dd!2sNavsari%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1732549877261!5m2!1sen!2sin" width="100%" height="400" ></iframe>
+		</section>
+		
+	
+	</main>
+
+		<!-- MAIN -->
+		 
+	</section>
+
+	
+	<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+	
+    <!-- JS -->
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="./js/script.js"></script>
+	
+
+
+
+</body>
+</html>
